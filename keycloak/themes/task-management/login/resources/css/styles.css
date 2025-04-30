@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#kc-form {
+  width: 50%;
+  height: auto;
+  padding: 2rem;
+  box-shadow: 0 5px 6px -3px rgba(0, 0, 0, 0.2),
+    0 9px 12px 1px rgba(0, 0, 0, 0.14), 0 3px 16px 2px rgba(0, 0, 0, 0.12);
+}
+
+#kc-form-login #kc-form-options {
+  margin-top: 15px;
+}
+
+#kc-login {
+  float: right;
+}
+
+#kc-error-message p {
+  margin: 0;
+}
+
+.template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.img-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.card-title {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #005a8f;
+}
+
+.responsive-img {
+  width: 72px;
+  height: 72px;
+}
+
+.borderR {
+  border-radius: 15px;
+}
+
+.wrapperC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-bg {
+  background-color: #005a8f;
+}
+.btn-bg:hover {
+  background-color: #005a8f;
+}
+
+/* input and label */
+/* label underline focus color */
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #005a8f !important;
+}
+.input-field input[type="password"]:focus + label {
+  color: #005a8f !important;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #005a8f !important;
+  box-shadow: 0 1px 0 0 #005a8f;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid #005a8f !important;
+  box-shadow: 0 1px 0 0 #005a8f;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #005a8f;
+}
